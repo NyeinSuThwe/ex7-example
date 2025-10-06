@@ -7,6 +7,14 @@
 
 
 
+/* Required */
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
 
 /*No touch*/
 h1, h2, nav, .cap, footer {
