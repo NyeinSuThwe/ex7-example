@@ -1,11 +1,6 @@
-/*Add your CSS here*/
-
-
-
-
-
-
-
+/* =========================
+   Silkcore Stylesheet
+   ========================= */
 
 /* Required */
 * {
@@ -15,18 +10,73 @@
   padding: 0;
   color: black;
 }
-h1 { font-size: 34px; }          /* required */
-h2 { color: crimson; }           /* named color */
-img { width: 100vw; height: auto; display: block; }
-.cap { color: darkslateblue; }   /* named color */
-a:link    { color: royalblue; }
-a:visited { color: indigo; }
-a:hover   { color: darkorange; text-decoration: underline; }
-a:active  { color: tomato; }
 
-footer a { text-decoration: none; }
-footer a:hover { text-decoration: none; }
+/* Typography & Elements */
+h1 {
+  font-size: 34px; /* required */
+}
 
+h2 {
+  color: crimson; /* named color */
+}
+
+img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.cap {
+  color: darkslateblue; /* named color */
+}
+
+/* Links */
+a:link {
+  color: royalblue;
+}
+
+a:visited {
+  color: indigo;
+}
+
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: tomato;
+}
+
+/* Footer link styling */
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+/*No touch*/
+h1, h2, nav, .cap, footer {
+  text-align: center;
+}
+
+nav {
+  padding: 1rem 0 2rem 0;
+}
+
+figure, h2, footer {
+  padding-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+p {
+  margin: 0 10vw;
+}
 
 /*No touch*/
 h1, h2, nav, .cap, footer {
